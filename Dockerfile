@@ -7,4 +7,4 @@ RUN cd /srv/www; bundle install
 
 EXPOSE 4567
 
-CMD cd /srv/www; middleman start
+CMD cd /srv/www; middleman server
