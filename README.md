@@ -1,7 +1,7 @@
 middleman
 =========
 
-Basic Middleman container for octohost.
+Basic [Middleman](http://middlemanapp.com/) container for octohost.
 
 Clone this repo and use Middleman to develop your website.
 
