@@ -1,6 +1,4 @@
-FROM octohost/ruby-2.0.0p247
-
-ENV PATH /usr/local/rvm/gems/ruby-2.0.0-p247/bin:/usr/local/rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+FROM octohost/ruby-1.9.3p484
 
 ADD . /srv/www
 RUN cd /srv/www; bundle install
