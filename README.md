@@ -14,5 +14,6 @@ git remote add octohost git@ip.address.here:middleman.git
 git push octohost master
 ```
 
-Example site \(usually\) at [http://middleman.octohost.io](http://middleman.octohost.io)
+This repo uses the [middleman-nginx](https://github.com/octohost/middleman-nginx) container to serve static files.
 
+Example site \(usually\) at [http://middleman.octohost.io](http://middleman.octohost.io)
