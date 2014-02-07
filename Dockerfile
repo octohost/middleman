@@ -1,8 +1,10 @@
-FROM octohost/ruby-1.9
+FROM octohost/middleman-nginx
 
-ADD . /srv/www
-RUN cd /srv/www; bundle install --deployment
+WORKDIR /srv/www
 
-EXPOSE 4567
+ADD . /srv/www/
+RUN middleman build
 
-CMD cd /srv/www; bundle exec  middleman server
+EXPOSE 80
+
+CMD nginx
