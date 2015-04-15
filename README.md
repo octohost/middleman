@@ -15,5 +15,3 @@ git push octohost master
 ```
 
 This repo uses the [middleman-nginx](https://github.com/octohost/middleman-nginx) container to serve static files.
-
-Example site \(usually\) at [http://middleman.octohost.io](http://middleman.octohost.io)
